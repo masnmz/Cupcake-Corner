@@ -13,9 +13,17 @@ class Order {
     static let types = ["Vanilla", "Strawberry", "Chocolate", "Rainbow"]
     
     var type = 0
-    var quantity = 1
+    var quantity = 3
     
-    var specialRequestEnable = false
+    var specialRequestEnabled = false {
+        didSet {
+            if specialRequestEnabled == false {
+                extraFrosting = false
+                addSprinkles = false
+            }
+        }
+    }
+
     var extraFrosting = false
     var addSprinkles = false
     
