@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D532133C2C17B84F000C4E1F /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D532133B2C17B84F000C4E1F /* AddressView.swift */; };
+		D532133E2C17C4DF000C4E1F /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D532133D2C17C4DF000C4E1F /* CheckoutView.swift */; };
 		D591F2232C17AFA500BF3642 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D591F2222C17AFA500BF3642 /* Order.swift */; };
 		D5BB4EEC2C1742C600ABBCB0 /* Cupcake_CornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB4EEB2C1742C600ABBCB0 /* Cupcake_CornerApp.swift */; };
 		D5BB4EEE2C1742C600ABBCB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB4EED2C1742C600ABBCB0 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		D532133B2C17B84F000C4E1F /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		D532133D2C17C4DF000C4E1F /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		D591F2222C17AFA500BF3642 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		D5BB4EE82C1742C600ABBCB0 /* Cupcake Corner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cupcake Corner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BB4EEB2C1742C600ABBCB0 /* Cupcake_CornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cupcake_CornerApp.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D591F2222C17AFA500BF3642 /* Order.swift */,
 				D5BB4EED2C1742C600ABBCB0 /* ContentView.swift */,
 				D532133B2C17B84F000C4E1F /* AddressView.swift */,
+				D532133D2C17C4DF000C4E1F /* CheckoutView.swift */,
 				D5BB4EEF2C1742C800ABBCB0 /* Assets.xcassets */,
 				D5BB4EF12C1742C800ABBCB0 /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				D591F2232C17AFA500BF3642 /* Order.swift in Sources */,
 				D532133C2C17B84F000C4E1F /* AddressView.swift in Sources */,
+				D532133E2C17C4DF000C4E1F /* CheckoutView.swift in Sources */,
 				D5BB4EEE2C1742C600ABBCB0 /* ContentView.swift in Sources */,
 				D5BB4EEC2C1742C600ABBCB0 /* Cupcake_CornerApp.swift in Sources */,
 			);
