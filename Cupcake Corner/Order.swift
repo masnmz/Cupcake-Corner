@@ -45,7 +45,7 @@ class Order: Codable {
     var zip = ""
     
     var hasValidAddress: Bool {
-        if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
+        if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty || streetAddress == " " || streetAddress.count < 3 || name == " " || name.count < 3 || city == " " || city.count < 3 || zip == " " || zip.count < 3 {
             return false
         }
         return true
